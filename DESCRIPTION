@@ -1,0 +1,25 @@
+Package: xena
+Type: Package
+Title: Management and analysis of the XENA mutation database.
+Version: 0.1.0
+Maintainer: Piotr Tymoszuk <piotr.s.tymoszuk@gmail.com>
+Description: Provides tools for loading, agouping and analysis of the mutation 
+    data collected by XENA: https://xenabrowser.net/datapages/
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Authors@R: 
+    person("Piotr", "Tymoszuk", , "piotr.s.tymoszuk@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-0398-6034"))
+Imports: 
+    dplyr,
+    Matrix,
+    plyr,
+    purrr,
+    readr,
+    rlang,
+    stringi,
+    tibble
+RoxygenNote: 7.1.1
+Depends: 
+    gseaTools
