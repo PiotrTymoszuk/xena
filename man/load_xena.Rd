@@ -16,3 +16,8 @@ a XENA object, with a data frame interface.
 Loads a XENA database from the disc and converts it to a
 tidyverse - compatible format.
 }
+\details{
+The XENA object enhances functionality of tibbles to hold
+mutation data. You may manipulate the XENA object with a plethora of
+tidyverse tools in a very similar way as an ordinary tibble.
+}

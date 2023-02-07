@@ -18,3 +18,8 @@ data.frame class.
 \description{
 Creates a XENA object on the top of a data frame.
 }
+\details{
+The XENA object enhances functionality of tibbles to hold
+mutation data. You may manipulate the XENA object with a plethora of
+tidyverse tools in a very similar way as an ordinary tibble.
+}
